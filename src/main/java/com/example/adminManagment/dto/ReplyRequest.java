@@ -1,4 +1,4 @@
-package com.example.adminManagement.dto;
+package com.example.adminManagment.dto;
 
 	public class ReplyRequest {
 	    private String reply;

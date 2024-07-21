@@ -2,9 +2,10 @@ package com.example.adminManagement.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.adminManagement.dto.ReplyRequest;
 import com.example.adminManagement.model.Reply;
 import com.example.adminManagement.repository.ReplyRepository;
+import com.example.adminManagment.dto.ReplyRequest;
+
 
 	@Service
 	public class ReplyService {
