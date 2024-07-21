@@ -18,8 +18,10 @@ public class SecurityConfig {
         http
             .csrf().disable()
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers(HttpMethod.POST, "/api/user/signUp", "/api/admin/login","/api/admin/reply").permitAll()
-                .requestMatchers(HttpMethod.GET,"/flights/getflights").permitAll()
+                .requestMatchers(HttpMethod.POST, "/api/user/signUp", "/api/admin/login","/flights/*",,"/api/admin/reply").permitAll()
+                .requestMatchers(HttpMethod.GET,"/flights/getAllflights").permitAll()
+                .requestMatchers(HttpMethod.DELETE,"/flights/**").permitAll()
+                .requestMatchers(HttpMethod.PUT,"/flights/**").permitAll()
                 .anyRequest().authenticated()
             )
             .formLogin().disable(); // Disable default login form
