@@ -1,10 +1,11 @@
-package com.example.adminManagement.service;
+package com.flight.adminManagement.service;
 
 
-import com.example.adminManagement.model.Flight;
-import com.example.adminManagement.repository.FlightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.flight.adminManagement.model.Flight;
+import com.flight.adminManagement.repository.FlightRepository;
 
 import java.time.LocalDate;
 import java.util.List;

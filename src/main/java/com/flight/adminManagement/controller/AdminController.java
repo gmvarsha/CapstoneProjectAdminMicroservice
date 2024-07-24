@@ -1,11 +1,12 @@
-package com.example.adminManagement.controller;
+package com.flight.adminManagement.controller;
 
-import com.example.adminManagement.model.AdminUser;
-import com.example.adminManagement.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.flight.adminManagement.model.AdminUser;
+import com.flight.adminManagement.service.AdminService;
 
 import java.util.HashMap;
 import java.util.Map;

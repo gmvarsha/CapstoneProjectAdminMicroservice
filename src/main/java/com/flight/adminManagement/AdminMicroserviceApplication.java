@@ -1,4 +1,4 @@
-package com.example.adminManagement;
+package com.flight.adminManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.adminManagment.dto;
+package com.flight.adminManagment.dto;
 
 	public class ReplyRequest {
 	    private String reply;

@@ -1,4 +1,4 @@
-package com.example.adminManagement.model;
+package com.flight.adminManagement.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

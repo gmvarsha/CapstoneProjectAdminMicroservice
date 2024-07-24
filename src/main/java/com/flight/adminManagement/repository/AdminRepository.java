@@ -1,10 +1,9 @@
-package com.example.adminManagement.repository;
-
-import com.example.adminManagement.model.AdminUser;
-
+package com.flight.adminManagement.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.flight.adminManagement.model.AdminUser;
 
 
 

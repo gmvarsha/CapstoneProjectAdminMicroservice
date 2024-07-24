@@ -1,10 +1,10 @@
-package com.example.adminManagement.controller;
+package com.flight.adminManagement.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.adminManagement.service.ReplyService;
-import com.example.adminManagment.dto.ReplyRequest;
+import com.flight.adminManagement.service.ReplyService;
+import com.flight.adminManagment.dto.ReplyRequest;
 
 @RestController
 @RequestMapping("/api/admin")

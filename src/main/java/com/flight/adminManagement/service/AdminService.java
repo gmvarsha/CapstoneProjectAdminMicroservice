@@ -1,11 +1,11 @@
-package com.example.adminManagement.service;
+package com.flight.adminManagement.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.adminManagement.model.AdminUser;
-import com.example.adminManagement.repository.AdminRepository;
+import com.flight.adminManagement.model.AdminUser;
+import com.flight.adminManagement.repository.AdminRepository;
 
 @Service
 public class AdminService {

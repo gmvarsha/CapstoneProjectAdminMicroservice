@@ -1,14 +1,15 @@
-package com.example.adminManagement.controller;
+package com.flight.adminManagement.controller;
 
 
-import com.example.adminManagement.model.Flight;
-import com.example.adminManagement.repository.FlightRepository;
-import com.example.adminManagement.service.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.flight.adminManagement.model.Flight;
+import com.flight.adminManagement.repository.FlightRepository;
+import com.flight.adminManagement.service.FlightService;
 
 import java.time.LocalDate;
 import java.sql.Date;

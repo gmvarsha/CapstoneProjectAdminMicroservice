@@ -1,10 +1,10 @@
-package com.example.adminManagement.service;
+package com.flight.adminManagement.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.adminManagement.model.Reply;
-import com.example.adminManagement.repository.ReplyRepository;
-import com.example.adminManagment.dto.ReplyRequest;
+import com.flight.adminManagement.model.Reply;
+import com.flight.adminManagement.repository.ReplyRepository;
+import com.flight.adminManagment.dto.ReplyRequest;
 
 
 	@Service

@@ -1,4 +1,4 @@
-package com.example.adminManagement.config;
+package com.flight.adminManagement.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
